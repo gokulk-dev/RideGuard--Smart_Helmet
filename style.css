@@ -38,7 +38,8 @@ html, body {
 /* ── DEVICE FRAME ── */
 .device-frame {
   width: 390px;
-  height: 844px;
+  height: 100vh;       /* responsive height */
+  max-height: 750px;
   border-radius: 44px;
   background: var(--white);
   box-shadow: 0 0 0 10px #1a1a1a, 0 40px 80px rgba(0,0,0,0.4);

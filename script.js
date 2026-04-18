@@ -133,7 +133,7 @@ function sendOTP() {
   getById("role-group").classList.remove("hidden");
 
   // change button text
-  getById("login-btn").textContent = "Verify OTP";
+  getById("login-btn").textContent = "Verify Code";
   loginStep = 2;
 }
 

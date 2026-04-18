@@ -143,7 +143,7 @@ function verifyOTP() {
 
   if (otp.length < 4) {
     otpInput.classList.add("error");
-    setText("otp-error", "Enter the OTP sent to your number");
+    setText("otp-error", "Enter the helmet code");
     return;
   }
 
